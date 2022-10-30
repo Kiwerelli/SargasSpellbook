@@ -1,0 +1,80 @@
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 20vmin;
+    border-bottom: 2px solid black;
+}
+
+.levelbox {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.namebox {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 75%;
+    height: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+    transform: translateY(-50%);
+}
+
+.level {
+    font-size: xxx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name {
+    position: absolute;
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ritualtag {
+    position: absolute;
+    font-style: italic;
+    width: 15%;
+    top: 60%;
+    left: 24%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.concentrationtag {
+    position: absolute;
+    font-style: italic;
+    width: 30%;
+    top: 60%;
+    left: 43%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.components {
+    position: absolute;
+    font-style: italic;
+    width: 12%;
+    top: 60%;
+    left: 77%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
